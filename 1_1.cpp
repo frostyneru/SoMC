@@ -17,5 +17,4 @@ int main()
      for (i=0; i<12; i++)
           cout << "\b";
      cout << "********************" << endl;
-	return 0;
 }
