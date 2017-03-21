@@ -23,6 +23,7 @@ int main()
 		sum=sum+player.price;
 	}
 	cout << "Общая сумма = " << sum << endl;
+	return 0;
 }
 
 //Applied Mathematics
