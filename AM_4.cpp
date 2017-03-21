@@ -12,7 +12,6 @@ int main()
 	ifstream fin("F.txt", ios_base::in | ios_base::ate);
 	float a,b,c;
 	string str;
-
 	const int N=1;
 	int i;
      	i = fin.tellg(); // текущая позиция курсора
@@ -39,4 +38,5 @@ int main()
           getline(fin, str); // читаем последнюю строку
           cout << str << endl;
       	}
+	return 0;
 }
