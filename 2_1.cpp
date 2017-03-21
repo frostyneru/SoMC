@@ -6,7 +6,7 @@ int main()
 	float a;
 	cout << "a = ";
 	cin >> a;
-     if (int(a) - a == 0)
+     	if (int(a) - a == 0)
 	switch(int(a))
 	{
 		case 1 : 
@@ -40,4 +40,5 @@ int main()
 			cout << "Ten" << endl;
 			break;
 	}
+	return 0;
 }
