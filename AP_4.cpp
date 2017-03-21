@@ -50,4 +50,5 @@ int main()
 			cout << tb.k[i][j] << " ";
 		cout << " Z = " << tb.n[i] << endl;
 	}
+	return 0;
 }
