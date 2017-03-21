@@ -29,4 +29,5 @@ int main()
 	cout << "Новый массив : " << endl;
 	for (i=0; i<j; i++)
 		cout << b[i] << " ";
+	return 0;
 }
