@@ -7,16 +7,13 @@ int main()
 	cin >> n;
 	cout << "m = ";
 	cin >> m; 
-     //l=n;
-     //z=m;
-     //cout << n << endl;
-     //cout << m << endl;
 	k=--n-m++;
-     n++;
-     m--;
+     	n++;
+     	m--;
 	cout << "k = " << k << endl;
 	m++<n-- ? (cout << "m++<n-- : true" << endl) : (cout << "m++<n-- : false" << endl);
-     m--;
-     n++;
-     m++>n-- ? (cout << "m++>n-- : true" << endl) : (cout << "m++>n-- : false" << endl);
+     	m--;
+     	n++;
+     	m++>n-- ? (cout << "m++>n-- : true" << endl) : (cout << "m++>n-- : false" << endl);
+	return 0;
 }
