@@ -16,7 +16,7 @@ int main()
 		strcat(str,".txt");
 
 		fstream file(str, ios::out | ios::app);
-		file << n << endl;
+		file << i+1 << endl;
 		file.close();
 	}
 	return 0;
